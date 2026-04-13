@@ -10,6 +10,14 @@ import { getProjectBySlug } from "@/data/projects";
 import CustomCursor from "@/components/custom-cursor";
 import ProjectModelViewer from "./model-viewer";
 
+export function generateStaticParams() {
+  return [
+    { slug: 'shotta-mk2' },
+    { slug: 'bmo' },
+    { slug: 'rc-boat' },
+  ]
+}
+
 export default function ProjectPage() {
   const params = useParams<{ slug: string | string[] }>();
   const slug = useMemo(() => {
