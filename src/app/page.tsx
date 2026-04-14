@@ -15,7 +15,7 @@ gsap.registerPlugin(ScrollTrigger, Draggable, useGSAP);
 const devlog = [
   {
     date: "APR 08, 2026",
-    title: "SHOTTA MK2 Velocity Tuning",
+    title: "SHOTTA MK2 Velocity Tuning Website",
     excerpt: "Logged flywheel RPM curves and tuned PWM ramps for cleaner launches.",
     tag: "TESTING",
   },
@@ -388,12 +388,12 @@ export default function Home() {
           </div>
           <div data-reveal className="grid gap-8 md:grid-cols-2 md:gap-10">
             <p className="text-base leading-relaxed text-[#e8e6df] md:text-lg">
-              I am Abdul, an electrical engineering student at King's College London building hardware that feels fast, precise, and a little bit wild. My work sits at the edge of mechanical design, embedded control, and practical prototyping.
+              I am Abdul, a front end software developer at King's College London, proficient in Tailwind CSS. I specialize in building modern, responsive web interfaces with a focus on clean design and great user experience.
             </p>
             <div className="rounded-xl border border-[#1f1f1f] bg-[#0d0d0d] p-5 font-mono text-xs uppercase tracking-[0.15em] text-[#e8e6df]">
               {[
                 ["Institution", "King's College London"],
-                ["Degree", "BEng Electrical Engineering"],
+                ["Degree", "BEng Software Engineering"],
                 ["Year", "First Year"],
                 ["Location", "London, UK"],
                 ["Status", "Open to opportunities"],
@@ -540,8 +540,8 @@ export default function Home() {
 
         <div className="mt-10 flex flex-col gap-4 font-mono text-lg uppercase tracking-[0.12em] md:text-2xl">
           {[
-            ["Email", "mailto:abdul@example.com", "abdul@example.com"],
-            ["GitHub", "https://github.com/abdul", "github.com/abdul"],
+            ["Email", "mailto:wase.khawar@hotmail.com", "wase.khawar@hotmail.com"],
+            ["GitHub", "https://github.com/lightestdark", "github.com/lightestdark"],
             ["LinkedIn", "https://linkedin.com/in/abdul", "linkedin.com/in/abdul"],
           ].map(([label, href, value]) => (
             <a key={label} className="contact-link magnetic inline-flex w-fit items-center gap-3" href={href}>
@@ -552,7 +552,7 @@ export default function Home() {
         </div>
 
         <p className="mt-14 font-mono text-[10px] uppercase tracking-[0.15em] text-[#444] md:text-xs">
-          MADE BY ABDUL - KCL EE - 2025
+          MADE BY ABDUL - KCL EE - 2026
         </p>
       </section>
     </motion.main>
