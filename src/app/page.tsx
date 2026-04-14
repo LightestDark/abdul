@@ -143,7 +143,7 @@ export default function Home() {
 
   useGSAP(
     () => {
-      const text = "Electrical Engineering Student & Maker - KCL '27";
+      const text = "Software Engineering Student & Maker - KCL '27";
 
       const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
       intro
