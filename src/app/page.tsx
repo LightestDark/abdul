@@ -169,7 +169,7 @@ export default function Home() {
 
   useGSAP(
     () => {
-      const text = "Software Student & Maker - KCL '27";
+      const text = "Engineer & Maker - KCL '27";
 
       const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
       intro
@@ -408,12 +408,12 @@ export default function Home() {
           </div>
           <div data-reveal className="grid gap-8 md:grid-cols-2 md:gap-10">
             <p className="text-base leading-relaxed text-[#e8e6df] md:text-lg">
-              I am Abdul, a front end software developer at King's College London, proficient in Tailwind CSS. I specialize in building modern, responsive web interfaces with a focus on clean design and great user experience.
+              I&apos;m Abdul, a mechanical engineer at King&apos;s College London specialising in Fusion 360 CAD, PCB manufacturing, and backend software development in C++ and Python.
             </p>
             <div className="rounded-xl border border-[#1f1f1f] bg-[#0d0d0d] p-5 font-mono text-xs uppercase tracking-[0.15em] text-[#e8e6df]">
               {[
                 ["Institution", "King's College London"],
-                ["Degree", "BEng Software Engineering"],
+                ["Degree", "MEng General Engineering"],
                 ["Year", "First Year"],
                 ["Location", "London, UK"],
                 ["Status", "Open to opportunities"],
@@ -554,8 +554,10 @@ export default function Home() {
         <h2 data-reveal className="font-mono text-xs uppercase tracking-[0.15em] text-[#444] md:text-sm">
           // 05 - CONTACT
         </h2>
-        <h3 className="contact-cta mt-5 font-display text-[13vw] font-extrabold leading-[0.9] md:text-[9vw]">
-          LET'S BUILD SOMETHING
+        <h3 className="contact-cta mt-5 font-display font-extrabold leading-[0.88]">
+          {["BUILD", "WITH", "ME"].map((word) => (
+            <div key={word} className="block text-[20vw] md:text-[13vw]">{word}</div>
+          ))}
         </h3>
 
         <div className="mt-10 flex flex-col gap-4 font-mono text-lg uppercase tracking-[0.12em] md:text-2xl">
